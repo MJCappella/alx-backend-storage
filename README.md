@@ -1,2 +1,2 @@
 # alx-backend-storage
-This repo contains directories related to stoarge in web applications like MySQL and other technologies.
+This repo contains directories related to storage in web applications like MySQL and other technologies.
