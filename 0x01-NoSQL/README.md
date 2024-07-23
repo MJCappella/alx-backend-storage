@@ -20,7 +20,6 @@ This project contains tasks for learning to use the MongoDB NoSQL database appli
 + [x] 6. **Update**<br/>[6-update](6-update) contains a MongoDB script that adds a new attribute to a document in the collection `school`:
 
 + [x] 7. **Delete by match**<br/>[7-delete](7-delete) contains a MongoDB script that deletes all documents with `name="Holberton school"` in the collection `school`:
-  + The database name will be passed as an option of `mongo` command.
 
 + [x] 8. **List all documents in Python**<br/>[8-all.py](8-all.py) contains a Python function that lists all documents in a collection:
   + Prototype: `def list_all(mongo_collection):`.
