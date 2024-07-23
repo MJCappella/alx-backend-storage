@@ -25,10 +25,6 @@ This project contains tasks for learning to use the MongoDB NoSQL database appli
 + [x] 9. **Insert a document in Python**<br/>[9-insert_school.py](9-insert_school.py) contains a Python function that inserts a new document in a collection based on `kwargs`:
 
 + [x] 10. **Change school topics**<br/>[10-update_topics.py](10-update_topics.py) contains a Python function that changes all topics of a school document based on the name:
-  + Prototype: `def update_topics(mongo_collection, name, topics):`.
-  + `mongo_collection` will be the `pymongo` collection object.
-  + `name` (string) will be the school name to update.
-  + `topics` (list of strings) will be the list of topics approached in the school.
 
 + [x] 11. **Where can I learn Python?**<br/>[11-schools_by_topic.py](11-schools_by_topic.py) contains a Python function that returns the list of school having a specific topic:
   + Prototype: `def schools_by_topic(mongo_collection, topic):`.
