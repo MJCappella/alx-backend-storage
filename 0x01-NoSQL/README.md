@@ -23,7 +23,7 @@ This project contains tasks for learning to use the MongoDB NoSQL database appli
 + [x] 8. **List all documents in Python**<br/>[8-all.py](8-all.py) contains a Python function that lists all documents in a collection:
 
 + [x] 9. **Insert a document in Python**<br/>[9-insert_school.py](9-insert_school.py) contains a Python function that inserts a new document in a collection based on `kwargs`:
-+ [ ] 
+
 + [x] 10. **Change school topics**<br/>[10-update_topics.py](10-update_topics.py) contains a Python function that changes all topics of a school document based on the name:
   + Prototype: `def update_topics(mongo_collection, name, topics):`.
   + `mongo_collection` will be the `pymongo` collection object.
