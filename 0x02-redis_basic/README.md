@@ -11,20 +11,7 @@ This project contains tasks for learning to use the Redis NoSQL data storage app
 + [x] 2. **Incrementing values**<br/>[exercise.py](exercise.py)
     
 + [x] 3. **Storing lists**<br/>[exercise.py](exercise.py) 
-+ [x] 4. **Retrieving lists**<br/>[exercise.py](exercise.py) contains a Python script with the following updates to the previous task:
-  + In this task, we will implement a `replay` function to display the history of calls of a particular function.
-  + The output generated should look like this:
-    ```py
-    >>> cache = Cache()
-    >>> cache.store("foo")
-    >>> cache.store("bar")
-    >>> cache.store(42)
-    >>> replay(cache.store)
-    Cache.store was called 3 times:
-    Cache.store(*('foo',)) -> 13bf32a9-a249-4664-95fc-b1062db2038f
-    Cache.store(*('bar',)) -> dcddd00c-4219-4dd7-8877-66afbe8e7df8
-    Cache.store(*(42,)) -> 5e752f2b-ecd8-4925-a3ce-e2efdee08d20
-    ```
++ [x] 4. **Retrieving lists**<br/>[exercise.py](exercise.py) 
 
 + [x] 5. **Implementing an expiring web cache and tracker**<br/>[web.py](web.py) contains a Python script that meets the following requirements:
   + In this tasks, we will implement a `get_page` function (prototype: `def get_page(url: str) -> str:`). The core of the function is very simple. It uses the `requests` module to obtain the HTML content of a particular URL and returns it.
