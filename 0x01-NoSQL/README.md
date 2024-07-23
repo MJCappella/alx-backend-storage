@@ -22,9 +22,6 @@ This project contains tasks for learning to use the MongoDB NoSQL database appli
 + [x] 7. **Delete by match**<br/>[7-delete](7-delete) contains a MongoDB script that deletes all documents with `name="Holberton school"` in the collection `school`:
 
 + [x] 8. **List all documents in Python**<br/>[8-all.py](8-all.py) contains a Python function that lists all documents in a collection:
-  + Prototype: `def list_all(mongo_collection):`.
-  + Return an empty list if no document in the collection.
-  + mongo_collection will be the pymongo collection object.
 
 + [x] 9. **Insert a document in Python**<br/>[9-insert_school.py](9-insert_school.py) contains a Python function that inserts a new document in a collection based on `kwargs`:
   + Prototype: `def insert_school(mongo_collection, **kwargs):`.
