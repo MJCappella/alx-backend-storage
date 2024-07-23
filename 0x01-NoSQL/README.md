@@ -18,9 +18,6 @@ This project contains tasks for learning to use the MongoDB NoSQL database appli
   + The database name will be passed as an option of `mongo` command.
 
 + [x] 6. **Update**<br/>[6-update](6-update) contains a MongoDB script that adds a new attribute to a document in the collection `school`:
-  + The script should update only document with `name="Holberton school"` (all of them).
-  + The update should add the attribute `address` with the value “972 Mission street”.
-  + The database name will be passed as an option of `mongo` command.
 
 + [x] 7. **Delete by match**<br/>[7-delete](7-delete) contains a MongoDB script that deletes all documents with `name="Holberton school"` in the collection `school`:
   + The database name will be passed as an option of `mongo` command.
