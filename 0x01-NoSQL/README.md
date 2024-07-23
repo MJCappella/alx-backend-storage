@@ -27,9 +27,6 @@ This project contains tasks for learning to use the MongoDB NoSQL database appli
 + [x] 10. **Change school topics**<br/>[10-update_topics.py](10-update_topics.py) contains a Python function that changes all topics of a school document based on the name:
 
 + [x] 11. **Where can I learn Python?**<br/>[11-schools_by_topic.py](11-schools_by_topic.py) contains a Python function that returns the list of school having a specific topic:
-  + Prototype: `def schools_by_topic(mongo_collection, topic):`.
-  + `mongo_collection` will be the `pymongo` collection object.
-  + `topic` (string) will be topic searched.
 
 + [x] 12. **Log stats**<br/>[12-log_stats.py](12-log_stats.py) contains a Python script that provides some stats about Nginx logs stored in MongoDB:
   + Database: `logs`.
